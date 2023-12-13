@@ -1,0 +1,130 @@
+{
+    "os": "Linux-6.5.6-76060506-generic-x86_64-with-glibc2.17",
+    "python": "3.8.18",
+    "heartbeatAt": "2023-12-13T22:20:16.649928",
+    "startedAt": "2023-12-13T22:20:15.876557",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--env-id=nasim:c-final"
+    ],
+    "state": "running",
+    "program": "train.py",
+    "codePathLocal": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "git@github.com:RusherRG/MLSec-Project.git",
+        "commit": "765173b0ff058fac9bb466fe9d39dfc21e20a03f"
+    },
+    "email": "rushang101@gmail.com",
+    "root": "/home/rusherrg/Masters/MLSec/Project",
+    "host": "aincrad",
+    "username": "rusherrg",
+    "executable": "/home/rusherrg/anaconda3/envs/mlsec/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 4487.1171875,
+        "min": 2200.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3910.203,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4799.456,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3837.97,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3846.567,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4072.35,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4027.052,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4799.599,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3922.654,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4482.214,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4797.677,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3836.712,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3887.913,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4654.948,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4277.169,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 4799.468,
+            "min": 2200.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3876.958,
+            "min": 2200.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 195.80270767211914,
+            "used": 150.52923202514648
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.229022979736328
+    }
+}

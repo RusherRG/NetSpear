@@ -90,7 +90,6 @@ def make_env_list_random(env_id, seed, num_envs):
     else:
         _fix_env = gym.make(env_id)
     _fix_env = gym.wrappers.RecordEpisodeStatistics(_fix_env)
-    # _fix_env.seed(seed)
     _fix_env.action_space.seed(seed)
     _fix_env.observation_space.seed(seed)
 
@@ -99,7 +98,6 @@ def make_env_list_random(env_id, seed, num_envs):
             return lambda: fix_env
         else:
             env = copy.deepcopy(fix_env)
-            # env.seed(seed+idx)
             env.action_space.seed(seed + idx)
             env.observation_space.seed(seed + idx)
             return lambda: env
@@ -152,7 +150,6 @@ def make_env(env_id, seed, idx):
                 save_fig=True,
             )
             env = gym.wrappers.RecordEpisodeStatistics(env)
-            # env.seed(seed)
             env.action_space.seed(seed)
             env.observation_space.seed(seed)
             return env
@@ -189,16 +186,14 @@ def make_env(env_id, seed, idx):
                 address_space_bounds=None,
             )
             env = gym.wrappers.RecordEpisodeStatistics(env)
-            env.seed(seed)
             env.action_space.seed(seed)
             env.observation_space.seed(seed)
             return env
 
         else:
             env = gym.make(env_id)
-            # env.seed(seed)
-            # env.action_space.seed(seed)
-            # env.observation_space.seed(seed)
+            env.action_space.seed(seed)
+            env.observation_space.seed(seed)
             env = gym.wrappers.RecordEpisodeStatistics(env)
 
             return env

@@ -26,3 +26,7 @@
 - We employ Proximal Policy Optimization (PPO) as it exhibits stable responsiveness to environmental changes, adjusting the gradient update step size optimally and promoting exploration.
 
 - These algorithms will train intelligent agents to maximize control over systems within a complex state space that simulates network topology.
+
+## Architecture
+
+![image](https://github.com/RusherRG/NetSpear/assets/27818512/bd0278b6-6341-4223-9d3b-08725220472d)
